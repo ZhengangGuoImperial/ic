@@ -1,3 +1,3 @@
-# 我的学术主页
+# 我的个人主页
 
 **My howepage:** http://guozhengang.cn
