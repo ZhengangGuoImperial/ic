@@ -155,5 +155,34 @@ He serves as a peer reviewer for the IEEE Transactions on Industrial Informatics
 </td></tr></table>
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <span id="busuanzi_container_site_pv">Website Visitors: <span id="busuanzi_value_site_pv"></span></span>
+<div>
+<span id="nowTime"></span>
+</div>
+<script type="text/javascript">
+  		var nowTimeSpan=document.getElementById("nowTime");
+  		function showNowTime(){
+  			var nowDate=new Date();
+  			var month=nowDate.getMonth()+1;
+  			if(month<10)
+  				month="0"+month;
+  			var date=nowDate.getDate();
+  			if(date<10)
+  				date="0"+date;
+  			var hour=nowDate.getHours();
+  			if(hour<10)
+  				hour="0"+hour;
+  			var minute=nowDate.getMinutes();
+  			if(minute<10)
+  				minute="0"+minute;
+  			var second=nowDate.getSeconds();
+  			if(second<10)
+  				second="0"+second;
+  			nowTimeSpan.innerText=nowDate.getFullYear()+"-"+
+  								  month+"-"+date+" "+hour+":"+minute
+  								  +":"+second;
+  			setTimeout(showNowTime,1000);
+  		}
+  		showNowTime();
+</script>
 </body>
 </html>
