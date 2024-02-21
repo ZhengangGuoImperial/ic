@@ -1,3 +1,3 @@
 # 我的个人主页
 
-**My howepage:** https://guozhengang.cn
+**My howepage:** https://guozgcn.cn
